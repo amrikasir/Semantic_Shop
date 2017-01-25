@@ -1,0 +1,7 @@
+.editable{
+    display: none;
+    float: right;
+}
+.table > tbody > tr:hover > td > .editable{
+    display: inline-block;
+}

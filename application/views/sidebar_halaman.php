@@ -1,0 +1,1 @@
+<div class="header">Menu</div><div class="menu">    <?php if ($rows !== NULL): ?>        <?php foreach ($rows as $row): ?>            <a class="item" href="<?php echo base_url('index.php/halaman/lihat/' . $row['id']); ?>">                <?php echo ucwords($row['judul']); ?>            </a>        <?php endforeach; ?>    <?php endif; ?></div>
